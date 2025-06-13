@@ -22,7 +22,7 @@ SEO Doctor: Image Water Mark Tool là một ứng dụng thân thiện với ng�
 ## Hướng Dẫn Sử Dụng
 1. Tải lên hình ảnh của bạn hoặc kéo thả vào ứng dụng.
 2. Chọn hoặc tải lên logo/văn bản làm watermark.
-3. Điều chỉnh độ trong suốt, vị trí và kích thước của watermark.
+3. Điều chỉnh vị trí và kích thước của watermark.
 4. Áp dụng watermark và tải xuống hình ảnh đã xử lý.
 
 ## Đóng Góp
