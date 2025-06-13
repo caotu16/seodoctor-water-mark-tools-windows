@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Starting Image Watermark Tool..."
+echo
+echo "Installing dependencies (first time only)..."
+npm install
+echo
+echo "Starting application..."
+npm start

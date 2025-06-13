@@ -1,0 +1,55 @@
+{
+  "name": "seo-doctor-image-watermark-tool",
+  "version": "3.0.0",
+  "description": "SEO Doctor: Image Water Mark Tool - Professional image watermarking application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build-win": "electron-builder --win --x64"
+  },
+  "keywords": ["electron", "image", "watermark", "seo", "batch-processing"],
+  "author": "SEO Doctor Team <info@seodoctor.vn>",
+  "license": "MIT",
+  "homepage": "https://seodoctor.vn",
+  "dependencies": {
+    "jimp": "0.22.10"
+  },
+  "devDependencies": {
+    "electron": "30.0.0",
+    "electron-builder": "24.13.3",
+    "electron-packager": "17.1.2"
+  },
+  "build": {
+    "appId": "com.seodoctor.imagewatermark",
+    "productName": "SEO Doctor Image Water Mark Tool",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "assets/**/*",
+      "node_modules/**/*",
+      "!node_modules/**/test/**",
+      "!node_modules/**/*.md",
+      "!**/node_modules/**/{test,__tests__,tests,powered-test,example,examples}/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
