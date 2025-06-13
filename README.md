@@ -3,6 +3,15 @@
 ## Tổng Quan
 SEO Doctor: Image Water Mark Tool là một ứng dụng thân thiện với người dùng, được thiết kế để giúp người dùng thêm watermark vào hình ảnh một cách dễ dàng. Công cụ này hỗ trợ nhiều định dạng hình ảnh như JPG, PNG, BMP, TIFF và WebP, mang lại sự linh hoạt cho nhiều nhu cầu khác nhau. Dù bạn là nhiếp ảnh gia, nhà sáng tạo nội dung hay chủ doanh nghiệp, công cụ này sẽ giúp bảo vệ hình ảnh của bạn và tăng cường khả năng nhận diện thương hiệu.
 
+### Giao diện tiếng việt
+
+![seodoctor-water-mark](https://github.com/user-attachments/assets/69532541-3f85-451d-8731-2e71a69e0fae)
+
+### Giao diện tiếng anh
+
+![seo-doctor-en](https://github.com/user-attachments/assets/3db801a8-2a4c-4640-9089-7b16961a8f99)
+
+
 ## Tính Năng
 - Thêm watermark vào hình ảnh với văn bản hoặc logo tùy chỉnh.
 - Hỗ trợ nhiều định dạng hình ảnh (JPG, PNG, BMP, TIFF, WebP).
